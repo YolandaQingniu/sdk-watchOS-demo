@@ -17,6 +17,7 @@
 		7E6956D3289BA9B900093360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6956D2289BA9B900093360 /* Assets.xcassets */; };
 		7E6956D7289BA9B900093360 /* QNDeviceSDKWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7E6956B9289BA9B600093360 /* QNDeviceSDKWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7E84708F28C8BB7500698742 /* QNDeviceSDK_watchos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2EEBCE28B8A61500EA1B31 /* QNDeviceSDK_watchos.framework */; };
+		99B6D9BECE6D6FAB581A09BC /* Pods_QNDeviceSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A63DBA6AD0F34D1227065FE /* Pods_QNDeviceSDKDemo.framework */; };
 		D232D64C2004DE2D00AABD67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D232D64B2004DE2D00AABD67 /* AppDelegate.m */; };
 		D232D64F2004DE2D00AABD67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D232D64E2004DE2D00AABD67 /* ViewController.m */; };
 		D232D6522004DE2D00AABD67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D232D6502004DE2D00AABD67 /* Main.storyboard */; };
@@ -125,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B6D9BECE6D6FAB581A09BC /* Pods_QNDeviceSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
