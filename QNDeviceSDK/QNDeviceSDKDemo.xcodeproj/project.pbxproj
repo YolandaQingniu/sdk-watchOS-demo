@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E33B4E528B4D19600A458B9 /* test123456789.qn in Resources */ = {isa = PBXBuildFile; fileRef = 7E33B4E428B4D19600A458B9 /* test123456789.qn */; };
+		7E6956BD289BA9B600093360 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6956BB289BA9B600093360 /* Interface.storyboard */; };
+		7E6956BF289BA9B700093360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6956BE289BA9B700093360 /* Assets.xcassets */; };
+		7E6956C5289BA9B800093360 /* QNDeviceSDKWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7E6956C4289BA9B800093360 /* QNDeviceSDKWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E6956CB289BA9B800093360 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6956CA289BA9B800093360 /* InterfaceController.m */; };
+		7E6956CE289BA9B800093360 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6956CD289BA9B800093360 /* ExtensionDelegate.m */; };
+		7E6956D1289BA9B800093360 /* ComplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6956D0289BA9B800093360 /* ComplicationController.m */; };
+		7E6956D3289BA9B900093360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6956D2289BA9B900093360 /* Assets.xcassets */; };
+		7E6956D7289BA9B900093360 /* QNDeviceSDKWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7E6956B9289BA9B600093360 /* QNDeviceSDKWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E84708F28C8BB7500698742 /* QNDeviceSDK_watchos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2EEBCE28B8A61500EA1B31 /* QNDeviceSDK_watchos.framework */; };
+		D232D64C2004DE2D00AABD67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D232D64B2004DE2D00AABD67 /* AppDelegate.m */; };
+		D232D64F2004DE2D00AABD67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D232D64E2004DE2D00AABD67 /* ViewController.m */; };
+		D232D6522004DE2D00AABD67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D232D6502004DE2D00AABD67 /* Main.storyboard */; };
+		D232D6542004DE2D00AABD67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D232D6532004DE2D00AABD67 /* Assets.xcassets */; };
+		D232D6572004DE2D00AABD67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D232D6552004DE2D00AABD67 /* LaunchScreen.storyboard */; };
+		D232D65A2004DE2D00AABD67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D232D6592004DE2D00AABD67 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E6956C6289BA9B800093360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D232D63F2004DE2D00AABD67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E6956C3289BA9B800093360;
+			remoteInfo = "QNDeviceSDKWatch WatchKit Extension";
+		};
+		7E6956D5289BA9B900093360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D232D63F2004DE2D00AABD67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E6956B8289BA9B600093360;
+			remoteInfo = QNDeviceSDKWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E6956DB289BA9B900093360 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7E6956C5289BA9B800093360 /* QNDeviceSDKWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6956DF289BA9B900093360 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7E6956D7289BA9B900093360 /* QNDeviceSDKWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B644EFB240F3867006E554B /* QNDeviceSDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QNDeviceSDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		1B644F1E24108576006E554B /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Toast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2615747DD85339AED6DC6B59 /* Pods-QNDeviceSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDKDemo/Pods-QNDeviceSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2C08733874C963330B9DCE5C /* Pods-QNDeviceSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDKTests/Pods-QNDeviceSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FA1EB91237AFA7A0DB28981 /* Pods_QNDeviceSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNDeviceSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A48EFFE561291A144902620 /* Pods-QNDeviceSDK-QNDeviceSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDK-QNDeviceSDKTests.release.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDK-QNDeviceSDKTests/Pods-QNDeviceSDK-QNDeviceSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E2EEBCE28B8A61500EA1B31 /* QNDeviceSDK_watchos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QNDeviceSDK_watchos.framework; sourceTree = "<group>"; };
+		7E33B4E428B4D19600A458B9 /* test123456789.qn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test123456789.qn; sourceTree = "<group>"; };
+		7E6956B9289BA9B600093360 /* QNDeviceSDKWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QNDeviceSDKWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6956BC289BA9B600093360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7E6956BE289BA9B700093360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E6956C4289BA9B800093360 /* QNDeviceSDKWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "QNDeviceSDKWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6956C9289BA9B800093360 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		7E6956CA289BA9B800093360 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		7E6956CC289BA9B800093360 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		7E6956CD289BA9B800093360 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		7E6956CF289BA9B800093360 /* ComplicationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComplicationController.h; sourceTree = "<group>"; };
+		7E6956D0289BA9B800093360 /* ComplicationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationController.m; sourceTree = "<group>"; };
+		7E6956D2289BA9B900093360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E6956D4289BA9B900093360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDB4F7F28AE08870042A278 /* QNDeviceSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QNDeviceSDKDemo.entitlements; sourceTree = "<group>"; };
+		8792968C695F33B924ABDFC5 /* Pods-QNDeviceSDK-QNDeviceSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDK-QNDeviceSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDK-QNDeviceSDKTests/Pods-QNDeviceSDK-QNDeviceSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		879B276CEFC1C6FD4F29D990 /* Pods-QNDeviceSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDKTests.release.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDKTests/Pods-QNDeviceSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A63DBA6AD0F34D1227065FE /* Pods_QNDeviceSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNDeviceSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3248B0F7EDD00A7C23459B /* Pods-QNDeviceSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDKDemo/Pods-QNDeviceSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D232D6472004DE2D00AABD67 /* SDK 2.0.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDK 2.0.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D232D64A2004DE2D00AABD67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D232D64B2004DE2D00AABD67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D232D64D2004DE2D00AABD67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D232D64E2004DE2D00AABD67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D232D6512004DE2D00AABD67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D232D6532004DE2D00AABD67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D232D6562004DE2D00AABD67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D232D6582004DE2D00AABD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D232D6592004DE2D00AABD67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4747AB24C0379C6D0C4B13F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6956C1289BA9B800093360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E84708F28C8BB7500698742 /* QNDeviceSDK_watchos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D232D6442004DE2D00AABD67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E6956BA289BA9B600093360 /* QNDeviceSDKWatch */ = {
+			isa = PBXGroup;
+			children = (
+				7E6956BB289BA9B600093360 /* Interface.storyboard */,
+				7E6956BE289BA9B700093360 /* Assets.xcassets */,
+			);
+			path = QNDeviceSDKWatch;
+			sourceTree = "<group>";
+		};
+		7E6956C8289BA9B800093360 /* QNDeviceSDKWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EEBCE28B8A61500EA1B31 /* QNDeviceSDK_watchos.framework */,
+				7E33B4E428B4D19600A458B9 /* test123456789.qn */,
+				7E6956C9289BA9B800093360 /* InterfaceController.h */,
+				7E6956CA289BA9B800093360 /* InterfaceController.m */,
+				7E6956CC289BA9B800093360 /* ExtensionDelegate.h */,
+				7E6956CD289BA9B800093360 /* ExtensionDelegate.m */,
+				7E6956CF289BA9B800093360 /* ComplicationController.h */,
+				7E6956D0289BA9B800093360 /* ComplicationController.m */,
+				7E6956D2289BA9B900093360 /* Assets.xcassets */,
+				7E6956D4289BA9B900093360 /* Info.plist */,
+			);
+			path = "QNDeviceSDKWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D21FD20C205FABD6006450BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B644F1E24108576006E554B /* Toast_Swift.framework */,
+				8A63DBA6AD0F34D1227065FE /* Pods_QNDeviceSDKDemo.framework */,
+				4FA1EB91237AFA7A0DB28981 /* Pods_QNDeviceSDKTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D232D63E2004DE2D00AABD67 = {
+			isa = PBXGroup;
+			children = (
+				D232D6492004DE2D00AABD67 /* QNDeviceSDKDemo */,
+				7E6956BA289BA9B600093360 /* QNDeviceSDKWatch */,
+				7E6956C8289BA9B800093360 /* QNDeviceSDKWatch WatchKit Extension */,
+				D232D6482004DE2D00AABD67 /* Products */,
+				D21FD20C205FABD6006450BC /* Frameworks */,
+				D38CDEA39F9695B9866C27C2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D232D6482004DE2D00AABD67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D232D6472004DE2D00AABD67 /* SDK 2.0.0.app */,
+				7E6956B9289BA9B600093360 /* QNDeviceSDKWatch.app */,
+				7E6956C4289BA9B800093360 /* QNDeviceSDKWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D232D6492004DE2D00AABD67 /* QNDeviceSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7EDB4F7F28AE08870042A278 /* QNDeviceSDKDemo.entitlements */,
+				D232D64A2004DE2D00AABD67 /* AppDelegate.h */,
+				D232D64B2004DE2D00AABD67 /* AppDelegate.m */,
+				D232D64D2004DE2D00AABD67 /* ViewController.h */,
+				D232D64E2004DE2D00AABD67 /* ViewController.m */,
+				D232D6502004DE2D00AABD67 /* Main.storyboard */,
+				D232D6532004DE2D00AABD67 /* Assets.xcassets */,
+				D232D6552004DE2D00AABD67 /* LaunchScreen.storyboard */,
+				D232D6582004DE2D00AABD67 /* Info.plist */,
+				D232D6592004DE2D00AABD67 /* main.m */,
+				1B644EFB240F3867006E554B /* QNDeviceSDKDemo-Bridging-Header.h */,
+			);
+			path = QNDeviceSDKDemo;
+			sourceTree = "<group>";
+		};
+		D38CDEA39F9695B9866C27C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8792968C695F33B924ABDFC5 /* Pods-QNDeviceSDK-QNDeviceSDKTests.debug.xcconfig */,
+				5A48EFFE561291A144902620 /* Pods-QNDeviceSDK-QNDeviceSDKTests.release.xcconfig */,
+				2615747DD85339AED6DC6B59 /* Pods-QNDeviceSDKDemo.debug.xcconfig */,
+				CA3248B0F7EDD00A7C23459B /* Pods-QNDeviceSDKDemo.release.xcconfig */,
+				2C08733874C963330B9DCE5C /* Pods-QNDeviceSDKTests.debug.xcconfig */,
+				879B276CEFC1C6FD4F29D990 /* Pods-QNDeviceSDKTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E6956B8289BA9B600093360 /* QNDeviceSDKWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6956DC289BA9B900093360 /* Build configuration list for PBXNativeTarget "QNDeviceSDKWatch" */;
+			buildPhases = (
+				7E6956B7289BA9B600093360 /* Resources */,
+				7E6956DB289BA9B900093360 /* Embed App Extensions */,
+				4747AB24C0379C6D0C4B13F4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6956C7289BA9B800093360 /* PBXTargetDependency */,
+			);
+			name = QNDeviceSDKWatch;
+			productName = QNDeviceSDKWatch;
+			productReference = 7E6956B9289BA9B600093360 /* QNDeviceSDKWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7E6956C3289BA9B800093360 /* QNDeviceSDKWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6956D8289BA9B900093360 /* Build configuration list for PBXNativeTarget "QNDeviceSDKWatch WatchKit Extension" */;
+			buildPhases = (
+				7E6956C0289BA9B800093360 /* Sources */,
+				7E6956C1289BA9B800093360 /* Frameworks */,
+				7E6956C2289BA9B800093360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QNDeviceSDKWatch WatchKit Extension";
+			productName = "QNDeviceSDKWatch WatchKit Extension";
+			productReference = 7E6956C4289BA9B800093360 /* QNDeviceSDKWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		D232D6462004DE2D00AABD67 /* QNDeviceSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D232D65D2004DE2D00AABD67 /* Build configuration list for PBXNativeTarget "QNDeviceSDKDemo" */;
+			buildPhases = (
+				03E7DD20E7BC08D4F204C3B0 /* [CP] Check Pods Manifest.lock */,
+				D232D6432004DE2D00AABD67 /* Sources */,
+				D232D6442004DE2D00AABD67 /* Frameworks */,
+				D232D6452004DE2D00AABD67 /* Resources */,
+				7E6956DF289BA9B900093360 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6956D6289BA9B900093360 /* PBXTargetDependency */,
+			);
+			name = QNDeviceSDKDemo;
+			productName = QNDeviceSDKDemo;
+			productReference = D232D6472004DE2D00AABD67 /* SDK 2.0.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D232D63F2004DE2D00AABD67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = Yolanda;
+				TargetAttributes = {
+					7E6956B8289BA9B600093360 = {
+						CreatedOnToolsVersion = 13.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7E6956C3289BA9B800093360 = {
+						CreatedOnToolsVersion = 13.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					D232D6462004DE2D00AABD67 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1130;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D232D6422004DE2D00AABD67 /* Build configuration list for PBXProject "QNDeviceSDKDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D232D63E2004DE2D00AABD67;
+			productRefGroup = D232D6482004DE2D00AABD67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D232D6462004DE2D00AABD67 /* QNDeviceSDKDemo */,
+				7E6956B8289BA9B600093360 /* QNDeviceSDKWatch */,
+				7E6956C3289BA9B800093360 /* QNDeviceSDKWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E6956B7289BA9B600093360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6956BF289BA9B700093360 /* Assets.xcassets in Resources */,
+				7E6956BD289BA9B600093360 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6956C2289BA9B800093360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E33B4E528B4D19600A458B9 /* test123456789.qn in Resources */,
+				7E6956D3289BA9B900093360 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D232D6452004DE2D00AABD67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D232D6572004DE2D00AABD67 /* LaunchScreen.storyboard in Resources */,
+				D232D6542004DE2D00AABD67 /* Assets.xcassets in Resources */,
+				D232D6522004DE2D00AABD67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E7DD20E7BC08D4F204C3B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QNDeviceSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E6956C0289BA9B800093360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6956D1289BA9B800093360 /* ComplicationController.m in Sources */,
+				7E6956CE289BA9B800093360 /* ExtensionDelegate.m in Sources */,
+				7E6956CB289BA9B800093360 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D232D6432004DE2D00AABD67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D232D64F2004DE2D00AABD67 /* ViewController.m in Sources */,
+				D232D65A2004DE2D00AABD67 /* main.m in Sources */,
+				D232D64C2004DE2D00AABD67 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E6956C7289BA9B800093360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E6956C3289BA9B800093360 /* QNDeviceSDKWatch WatchKit Extension */;
+			targetProxy = 7E6956C6289BA9B800093360 /* PBXContainerItemProxy */;
+		};
+		7E6956D6289BA9B900093360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E6956B8289BA9B600093360 /* QNDeviceSDKWatch */;
+			targetProxy = 7E6956D5289BA9B900093360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E6956BB289BA9B600093360 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E6956BC289BA9B600093360 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		D232D6502004DE2D00AABD67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D232D6512004DE2D00AABD67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D232D6552004DE2D00AABD67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D232D6562004DE2D00AABD67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E6956D9289BA9B900093360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BV3EPFW3GV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
+					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QNDeviceSDKWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "QNDeviceSDKWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Yolanda. All rights reserved.";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = ExtensionDelegate;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yolanda.sdk.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		7E6956DA289BA9B900093360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BV3EPFW3GV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
+					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QNDeviceSDKWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "QNDeviceSDKWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Yolanda. All rights reserved.";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = ExtensionDelegate;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yolanda.sdk.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		7E6956DD289BA9B900093360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BV3EPFW3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = QNDeviceSDKWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = QNDeviceSDKWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.yolanda.sdk;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yolanda.sdk.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		7E6956DE289BA9B900093360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BV3EPFW3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = QNDeviceSDKWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = QNDeviceSDKWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.yolanda.sdk;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yolanda.sdk.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		D232D65B2004DE2D00AABD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				SDKROOT = iphoneos;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		D232D65C2004DE2D00AABD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		D232D65E2004DE2D00AABD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2615747DD85339AED6DC6B59 /* Pods-QNDeviceSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_DEBUG_INFORMATION_LEVEL = default;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QNDeviceSDKDemo/QNDeviceSDKDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BV3EPFW3GV;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = QNDeviceSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yolanda.sdk;
+				PRODUCT_NAME = "SDK 2.0.0";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "QNDeviceSDKDemo/QNDeviceSDKDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D232D65F2004DE2D00AABD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA3248B0F7EDD00A7C23459B /* Pods-QNDeviceSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_DEBUG_INFORMATION_LEVEL = default;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QNDeviceSDKDemo/QNDeviceSDKDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BV3EPFW3GV;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = QNDeviceSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yolanda.sdk;
+				PRODUCT_NAME = "SDK 2.0.0";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "QNDeviceSDKDemo/QNDeviceSDKDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E6956D8289BA9B900093360 /* Build configuration list for PBXNativeTarget "QNDeviceSDKWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6956D9289BA9B900093360 /* Debug */,
+				7E6956DA289BA9B900093360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6956DC289BA9B900093360 /* Build configuration list for PBXNativeTarget "QNDeviceSDKWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6956DD289BA9B900093360 /* Debug */,
+				7E6956DE289BA9B900093360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D232D6422004DE2D00AABD67 /* Build configuration list for PBXProject "QNDeviceSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D232D65B2004DE2D00AABD67 /* Debug */,
+				D232D65C2004DE2D00AABD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D232D65D2004DE2D00AABD67 /* Build configuration list for PBXNativeTarget "QNDeviceSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D232D65E2004DE2D00AABD67 /* Debug */,
+				D232D65F2004DE2D00AABD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D232D63F2004DE2D00AABD67 /* Project object */;
+}

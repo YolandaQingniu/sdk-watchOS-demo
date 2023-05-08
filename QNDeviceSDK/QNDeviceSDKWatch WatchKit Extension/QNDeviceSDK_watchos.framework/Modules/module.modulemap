@@ -1,0 +1,6 @@
+framework module QNDeviceSDK_watchos {
+  umbrella header "QNDeviceSDK_watchos.h"
+
+  export *
+  module * { export * }
+}

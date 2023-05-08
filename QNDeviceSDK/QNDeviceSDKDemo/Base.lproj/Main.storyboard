@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="zxq-Nx-g2m">
+            <objects>
+                <navigationController id="F2X-eM-oUn" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="n1M-Id-SOd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="HZD-mL-l1P" kind="relationship" relationship="rootViewController" id="HqH-BV-uSp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="np2-y1-5cI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1814" y="-282"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="jEW-Cm-03T">
+                        <barButtonItem key="leftBarButtonItem" title="远程存储数据解析" id="7ZL-d5-Id9">
+                            <connections>
+                                <action selector="serveAnalysisStorageData:" destination="BYZ-38-t0r" id="ALl-V3-bfC"/>
+                            </connections>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="共享秤扫码" id="H2D-zw-yV1">
+                                <connections>
+                                    <action selector="turnToShareScaleVC:" destination="BYZ-38-t0r" id="SXv-bh-IF2"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="厨房秤" id="jHe-tX-6rY">
+                                <connections>
+                                    <action selector="turnToKitchenVc:" destination="BYZ-38-t0r" id="C5c-LJ-rjX"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-228" y="-230"/>
+        </scene>
+        <!--RootVC-->
+        <scene sceneID="fKA-2I-XLJ">
+            <objects>
+                <viewController id="HZD-mL-l1P" customClass="RootVC" customModule="SDK_2_0_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8Lt-I6-j3I"/>
+                        <viewControllerLayoutGuide type="bottom" id="P1h-ly-YqC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="758-wu-CU0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQK-mT-lYl">
+                                <rect key="frame" x="10" y="64" width="355" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="cGg-mM-1Gt"/>
+                                </constraints>
+                                <state key="normal" title="厨房秤"/>
+                                <connections>
+                                    <action selector="turnToKitchenVC:" destination="HZD-mL-l1P" eventType="touchUpInside" id="7XH-nW-qUS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAr-dy-0fN">
+                                <rect key="frame" x="10" y="114" width="355" height="40"/>
+                                <state key="normal" title="共享秤"/>
+                                <connections>
+                                    <action selector="turnToShareVC:" destination="HZD-mL-l1P" eventType="touchUpInside" id="Th6-Oa-2Ud"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9K-La-Fwm">
+                                <rect key="frame" x="10" y="164" width="355" height="40"/>
+                                <state key="normal" title="体脂秤"/>
+                                <connections>
+                                    <action selector="turnToScaleVC:" destination="HZD-mL-l1P" eventType="touchUpInside" id="etC-80-bmh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dk-1u-cFe">
+                                <rect key="frame" x="10" y="214" width="355" height="40"/>
+                                <state key="normal" title="wsp秤"/>
+                                <connections>
+                                    <action selector="turnToWspVC:" destination="HZD-mL-l1P" eventType="touchUpInside" id="HsQ-7s-ETs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KbQ-sS-YQk">
+                                <rect key="frame" x="10" y="269" width="355" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="d5e-GX-kGn"/>
+                                </constraints>
+                                <state key="normal" title="围度尺"/>
+                                <connections>
+                                    <action selector="turnToRulerVC:" destination="HZD-mL-l1P" eventType="touchUpInside" id="NXl-IB-cX3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zAr-dy-0fN" firstAttribute="leading" secondItem="OQK-mT-lYl" secondAttribute="leading" id="2n4-QQ-G8e"/>
+                            <constraint firstItem="zAr-dy-0fN" firstAttribute="top" secondItem="OQK-mT-lYl" secondAttribute="bottom" constant="10" id="5c0-du-yg6"/>
+                            <constraint firstItem="g9K-La-Fwm" firstAttribute="height" secondItem="OQK-mT-lYl" secondAttribute="height" id="6aT-p5-NYT"/>
+                            <constraint firstItem="zAr-dy-0fN" firstAttribute="trailing" secondItem="OQK-mT-lYl" secondAttribute="trailing" id="AeH-Oe-Mow"/>
+                            <constraint firstItem="OQK-mT-lYl" firstAttribute="leading" secondItem="758-wu-CU0" secondAttribute="leading" constant="10" id="DXY-yd-MfY"/>
+                            <constraint firstAttribute="trailing" secondItem="OQK-mT-lYl" secondAttribute="trailing" constant="10" id="Tda-an-0UG"/>
+                            <constraint firstItem="KbQ-sS-YQk" firstAttribute="leading" secondItem="758-wu-CU0" secondAttribute="leading" constant="10" id="WA8-Og-mQi"/>
+                            <constraint firstItem="zAr-dy-0fN" firstAttribute="height" secondItem="OQK-mT-lYl" secondAttribute="height" id="Xk1-PJ-It4"/>
+                            <constraint firstAttribute="trailing" secondItem="KbQ-sS-YQk" secondAttribute="trailing" constant="10" id="Ycl-4K-ou2"/>
+                            <constraint firstItem="g9K-La-Fwm" firstAttribute="leading" secondItem="OQK-mT-lYl" secondAttribute="leading" id="b7B-p4-Rpe"/>
+                            <constraint firstItem="g9K-La-Fwm" firstAttribute="trailing" secondItem="OQK-mT-lYl" secondAttribute="trailing" id="dHn-eL-2gE"/>
+                            <constraint firstItem="9dk-1u-cFe" firstAttribute="trailing" secondItem="g9K-La-Fwm" secondAttribute="trailing" id="inf-FO-07E"/>
+                            <constraint firstItem="9dk-1u-cFe" firstAttribute="top" secondItem="g9K-La-Fwm" secondAttribute="bottom" constant="10" id="l1a-5Y-ZBH"/>
+                            <constraint firstItem="9dk-1u-cFe" firstAttribute="height" secondItem="g9K-La-Fwm" secondAttribute="height" id="m0k-bE-dPo"/>
+                            <constraint firstItem="KbQ-sS-YQk" firstAttribute="top" secondItem="9dk-1u-cFe" secondAttribute="bottom" constant="15" id="tq3-YN-bfl"/>
+                            <constraint firstItem="g9K-La-Fwm" firstAttribute="top" secondItem="zAr-dy-0fN" secondAttribute="bottom" constant="10" id="uHb-pt-ZId"/>
+                            <constraint firstItem="9dk-1u-cFe" firstAttribute="leading" secondItem="g9K-La-Fwm" secondAttribute="leading" id="ubW-0a-Mym"/>
+                            <constraint firstItem="OQK-mT-lYl" firstAttribute="top" secondItem="8Lt-I6-j3I" secondAttribute="bottom" constant="20" id="vc5-zW-y0m"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kHR-Gl-6na"/>
+                    <connections>
+                        <outlet property="topConstraint" destination="vc5-zW-y0m" id="dRw-4k-GpD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WEu-RW-IDD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1010.4" y="-276.61169415292358"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
