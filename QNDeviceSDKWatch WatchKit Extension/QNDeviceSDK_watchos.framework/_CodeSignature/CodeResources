@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/QNBleApi.h</key>
 		<data>
-		AjvzRHTWWqmV9nSv3c18BS0WbvY=
+		sGNudJpatnLNLXqedptszjbrIx8=
 		</data>
 		<key>Headers/QNBleBroadcastDevice.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/QNBleDevice.h</key>
 		<data>
-		6BvGdJfpOTmMXvNK7ieolN2Enl8=
+		SuMX/Ffw6C948Fas5In1X1RAQBg=
 		</data>
 		<key>Headers/QNBleDeviceDiscoveryProtocol.h</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Headers/QNUserScaleConfig.h</key>
 		<data>
-		wau4pc9LDtF0Rxfeb8OR15tn0OE=
+		c0Kzz/HDVDX+mpXQL1rXteKa7/I=
 		</data>
 		<key>Headers/QNUserScaleDataProtocol.h</key>
 		<data>
@@ -111,11 +111,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AjvzRHTWWqmV9nSv3c18BS0WbvY=
+			sGNudJpatnLNLXqedptszjbrIx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z4x0cBzX1SGV4awamMbybq7FsmIMwF+lM/B+jz3pVx8=
+			0m3n7NRGpbkf7bn4dOdMrMfHgBLNe4shytjBWR64gus=
 			</data>
 		</dict>
 		<key>Headers/QNBleBroadcastDevice.h</key>
@@ -144,11 +144,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6BvGdJfpOTmMXvNK7ieolN2Enl8=
+			SuMX/Ffw6C948Fas5In1X1RAQBg=
 			</data>
 			<key>hash2</key>
 			<data>
-			42U1CW2Oj/oVlSNbr69a8M0PppAD+UPJvm4y8HXx54M=
+			dFIOrXUq+pOgzmsVeffgPNy1awH8yw1ozsvepUnNwpo=
 			</data>
 		</dict>
 		<key>Headers/QNBleDeviceDiscoveryProtocol.h</key>
@@ -309,11 +309,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wau4pc9LDtF0Rxfeb8OR15tn0OE=
+			c0Kzz/HDVDX+mpXQL1rXteKa7/I=
 			</data>
 			<key>hash2</key>
 			<data>
-			R6nE2lbOi8cPqY8QBWm0leuwCmXWUoiVu/SldVXHg14=
+			y+hiCnD22qCz0pAq//7LpTCuSqEiA/SkHcqlRrg9V/I=
 			</data>
 		</dict>
 		<key>Headers/QNUserScaleDataProtocol.h</key>

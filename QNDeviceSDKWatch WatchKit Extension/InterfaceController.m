@@ -40,7 +40,7 @@
 
 - (void)onDeviceDiscover:(QNBleDevice *)device {
     
-    if (![device.mac isEqualToString:@"C7:C7:63:DF:FF:78"] && ![device.mac isEqualToString:@"A8:48:FA:35:8F:AE"]) {
+    if (![device.mac isEqualToString:@"D8:0B:CB:52:4E:61"] && ![device.mac isEqualToString:@"A8:48:FA:35:8F:AE"]) {
         return;
     }
     

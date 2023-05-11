@@ -101,5 +101,16 @@
 /// @param unit  KG、LB、JIN、ST、STLB 为体脂秤单位 (不支持ST的转换，查询文档获取相关转化方法)
 - (double)convertWeightWithTargetUnit:(double)weight unit:(QNUnit)unit;
 
+/// 设置用户秤秤端是否测脂
+/// @param state 开关状态
+/// @param longTerm 是否长期有效
+/// @param callback 结果的回调
+- (void)setFatMeasurementSwitch:(BOOL)state longTerm:(BOOL)longTerm callback:(QNResultCallback)callback;
+
+/// 设置用户秤进入抱婴模式
+/// @param state 开关状态
+/// @param callback 结果的回调
+- (void)setBabyCarryingModelSwitch:(BOOL)state callback:(QNResultCallback)callback;
+
 @end
 
