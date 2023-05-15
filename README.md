@@ -81,6 +81,6 @@ SDK的运行需要appid以及配置文件，商家在接入时可先使用轻牛
 9. 连接设备 `- (void)connectDevice:(QNBleDevice *)device user:(QNUser *)user callback:(QNResultCallback)callback;`
 
 ## 注意事项
-- SDK适配watchOS 6.0及以上系统
+- SDK适配watchOS 4.0及以上系统
 - iOS10.0及以上系统必须Info.plist中配置蓝牙的使用数据，否则无法使用系统的蓝牙功能
 - 必须为SDK配置链接器，否则SDK无法正常运行
