@@ -30,7 +30,11 @@
 - (void)onBleSystemState:(QNBLEState)state {
     NSLog(@"系统蓝牙状态： %ld",state);
     [[QNBleApi sharedBleApi] startBleDeviceDiscovery:^(NSError *error) {
-        
+        if (error) {
+            NSLog(@"开启扫描失败【%@】", error.localizedDescription);
+        } else {
+            NSLog(@"开启扫描成功");
+        }
     }];
 }
 
@@ -39,8 +43,9 @@
 }
 
 - (void)onDeviceDiscover:(QNBleDevice *)device {
+    NSLog(@"扫描到设备:%@[%@]",device.bluetoothName, device.mac);
     
-    if (![device.mac isEqualToString:@"D8:0B:CB:52:4E:61"] && ![device.mac isEqualToString:@"A8:48:FA:35:8F:AE"]) {
+    if (![device.mac isEqualToString:@"D8:0B:CB:52:4E:61"]) {
         return;
     }
     

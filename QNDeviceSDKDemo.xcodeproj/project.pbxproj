@@ -17,7 +17,6 @@
 		7E6956D1289BA9B800093360 /* ComplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6956D0289BA9B800093360 /* ComplicationController.m */; };
 		7E6956D3289BA9B900093360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6956D2289BA9B900093360 /* Assets.xcassets */; };
 		7E6956D7289BA9B900093360 /* QNDeviceSDKWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7E6956B9289BA9B600093360 /* QNDeviceSDKWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		7E84708F28C8BB7500698742 /* QNDeviceSDK_watchos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2EEBCE28B8A61500EA1B31 /* QNDeviceSDK_watchos.framework */; };
 		99B6D9BECE6D6FAB581A09BC /* Pods_QNDeviceSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A63DBA6AD0F34D1227065FE /* Pods_QNDeviceSDKDemo.framework */; };
 		D232D64C2004DE2D00AABD67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D232D64B2004DE2D00AABD67 /* AppDelegate.m */; };
 		D232D64F2004DE2D00AABD67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D232D64E2004DE2D00AABD67 /* ViewController.m */; };
@@ -25,6 +24,7 @@
 		D232D6542004DE2D00AABD67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D232D6532004DE2D00AABD67 /* Assets.xcassets */; };
 		D232D6572004DE2D00AABD67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D232D6552004DE2D00AABD67 /* LaunchScreen.storyboard */; };
 		D232D65A2004DE2D00AABD67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D232D6592004DE2D00AABD67 /* main.m */; };
+		F616854E2DD3786C00318AB8 /* QNDeviceSDK_watchos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F616854D2DD3786C00318AB8 /* QNDeviceSDK_watchos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +76,6 @@
 		2C08733874C963330B9DCE5C /* Pods-QNDeviceSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDKTests/Pods-QNDeviceSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4FA1EB91237AFA7A0DB28981 /* Pods_QNDeviceSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNDeviceSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A48EFFE561291A144902620 /* Pods-QNDeviceSDK-QNDeviceSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDK-QNDeviceSDKTests.release.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDK-QNDeviceSDKTests/Pods-QNDeviceSDK-QNDeviceSDKTests.release.xcconfig"; sourceTree = "<group>"; };
-		7E2EEBCE28B8A61500EA1B31 /* QNDeviceSDK_watchos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QNDeviceSDK_watchos.framework; sourceTree = "<group>"; };
 		7E33B4E428B4D19600A458B9 /* test123456789.qn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test123456789.qn; sourceTree = "<group>"; };
 		7E52F7BA2A0CB9F70018BB40 /* QNWatchSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QNWatchSDK.podspec; sourceTree = "<group>"; };
 		7E6956B9289BA9B600093360 /* QNDeviceSDKWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QNDeviceSDKWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +105,7 @@
 		D232D6562004DE2D00AABD67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D232D6582004DE2D00AABD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D232D6592004DE2D00AABD67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F616854D2DD3786C00318AB8 /* QNDeviceSDK_watchos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QNDeviceSDK_watchos.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E84708F28C8BB7500698742 /* QNDeviceSDK_watchos.framework in Frameworks */,
+				F616854E2DD3786C00318AB8 /* QNDeviceSDK_watchos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,7 @@
 		7E6956C8289BA9B800093360 /* QNDeviceSDKWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				7E2EEBCE28B8A61500EA1B31 /* QNDeviceSDK_watchos.framework */,
+				F616854D2DD3786C00318AB8 /* QNDeviceSDK_watchos.framework */,
 				7E33B4E428B4D19600A458B9 /* test123456789.qn */,
 				7E6956C9289BA9B800093360 /* InterfaceController.h */,
 				7E6956CA289BA9B800093360 /* InterfaceController.m */,
@@ -469,6 +469,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
 					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
+					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "QNDeviceSDKWatch WatchKit Extension/Info.plist";
@@ -507,6 +508,7 @@
 				DEVELOPMENT_TEAM = BV3EPFW3GV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
 					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
 					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
 				);
@@ -727,7 +729,7 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = QNDeviceSDKDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-fembed-bitcode";
@@ -757,7 +759,7 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = QNDeviceSDKDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-fembed-bitcode";
