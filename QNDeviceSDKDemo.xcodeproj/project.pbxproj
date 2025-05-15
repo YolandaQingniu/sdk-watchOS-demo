@@ -24,7 +24,8 @@
 		D232D6542004DE2D00AABD67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D232D6532004DE2D00AABD67 /* Assets.xcassets */; };
 		D232D6572004DE2D00AABD67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D232D6552004DE2D00AABD67 /* LaunchScreen.storyboard */; };
 		D232D65A2004DE2D00AABD67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D232D6592004DE2D00AABD67 /* main.m */; };
-		F6DE9AC52DD5DB93003FBEB9 /* QNDeviceSDK_watchos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DE9AC42DD5DB93003FBEB9 /* QNDeviceSDK_watchos.framework */; };
+		DB86003B6C69E49FDE3AC159 /* Pods_QNDeviceSDKWatch_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941AA8E9A2EE529419E6DEE8 /* Pods_QNDeviceSDKWatch_WatchKit_Extension.framework */; };
+		F6DE9AC72DD60B90003FBEB9 /* QNDeviceSDK_watchos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DE9AC62DD60B90003FBEB9 /* QNDeviceSDK_watchos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		1B644F1E24108576006E554B /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Toast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2615747DD85339AED6DC6B59 /* Pods-QNDeviceSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDKDemo/Pods-QNDeviceSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		2C08733874C963330B9DCE5C /* Pods-QNDeviceSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDKTests/Pods-QNDeviceSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38E881907AFC0452A092810F /* Pods-QNDeviceSDKWatch WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDKWatch WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDKWatch WatchKit Extension/Pods-QNDeviceSDKWatch WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		4FA1EB91237AFA7A0DB28981 /* Pods_QNDeviceSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNDeviceSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A48EFFE561291A144902620 /* Pods-QNDeviceSDK-QNDeviceSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDK-QNDeviceSDKTests.release.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDK-QNDeviceSDKTests/Pods-QNDeviceSDK-QNDeviceSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		7E33B4E428B4D19600A458B9 /* test123456789.qn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test123456789.qn; sourceTree = "<group>"; };
@@ -91,9 +93,11 @@
 		7E6956D2289BA9B900093360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E6956D4289BA9B900093360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EDB4F7F28AE08870042A278 /* QNDeviceSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QNDeviceSDKDemo.entitlements; sourceTree = "<group>"; };
+		805FCFD9BC02968AE6250A94 /* Pods-QNDeviceSDKWatch WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDKWatch WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDKWatch WatchKit Extension/Pods-QNDeviceSDKWatch WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		8792968C695F33B924ABDFC5 /* Pods-QNDeviceSDK-QNDeviceSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDK-QNDeviceSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDK-QNDeviceSDKTests/Pods-QNDeviceSDK-QNDeviceSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		879B276CEFC1C6FD4F29D990 /* Pods-QNDeviceSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDKTests.release.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDKTests/Pods-QNDeviceSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		8A63DBA6AD0F34D1227065FE /* Pods_QNDeviceSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNDeviceSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		941AA8E9A2EE529419E6DEE8 /* Pods_QNDeviceSDKWatch_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNDeviceSDKWatch_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3248B0F7EDD00A7C23459B /* Pods-QNDeviceSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDKDemo/Pods-QNDeviceSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D232D6472004DE2D00AABD67 /* SDK 2.0.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDK 2.0.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D232D64A2004DE2D00AABD67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,7 +109,7 @@
 		D232D6562004DE2D00AABD67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D232D6582004DE2D00AABD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D232D6592004DE2D00AABD67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F6DE9AC42DD5DB93003FBEB9 /* QNDeviceSDK_watchos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QNDeviceSDK_watchos.framework; sourceTree = "<group>"; };
+		F6DE9AC62DD60B90003FBEB9 /* QNDeviceSDK_watchos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QNDeviceSDK_watchos.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +124,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6DE9AC52DD5DB93003FBEB9 /* QNDeviceSDK_watchos.framework in Frameworks */,
+				F6DE9AC72DD60B90003FBEB9 /* QNDeviceSDK_watchos.framework in Frameworks */,
+				DB86003B6C69E49FDE3AC159 /* Pods_QNDeviceSDKWatch_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +152,7 @@
 		7E6956C8289BA9B800093360 /* QNDeviceSDKWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				F6DE9AC42DD5DB93003FBEB9 /* QNDeviceSDK_watchos.framework */,
+				F6DE9AC62DD60B90003FBEB9 /* QNDeviceSDK_watchos.framework */,
 				7E33B4E428B4D19600A458B9 /* test123456789.qn */,
 				7E6956C9289BA9B800093360 /* InterfaceController.h */,
 				7E6956CA289BA9B800093360 /* InterfaceController.m */,
@@ -167,6 +172,7 @@
 				1B644F1E24108576006E554B /* Toast_Swift.framework */,
 				8A63DBA6AD0F34D1227065FE /* Pods_QNDeviceSDKDemo.framework */,
 				4FA1EB91237AFA7A0DB28981 /* Pods_QNDeviceSDKTests.framework */,
+				941AA8E9A2EE529419E6DEE8 /* Pods_QNDeviceSDKWatch_WatchKit_Extension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,6 +227,8 @@
 				CA3248B0F7EDD00A7C23459B /* Pods-QNDeviceSDKDemo.release.xcconfig */,
 				2C08733874C963330B9DCE5C /* Pods-QNDeviceSDKTests.debug.xcconfig */,
 				879B276CEFC1C6FD4F29D990 /* Pods-QNDeviceSDKTests.release.xcconfig */,
+				805FCFD9BC02968AE6250A94 /* Pods-QNDeviceSDKWatch WatchKit Extension.debug.xcconfig */,
+				38E881907AFC0452A092810F /* Pods-QNDeviceSDKWatch WatchKit Extension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -250,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E6956D8289BA9B900093360 /* Build configuration list for PBXNativeTarget "QNDeviceSDKWatch WatchKit Extension" */;
 			buildPhases = (
+				276732E64CBB0BE26BDAB8B3 /* [CP] Check Pods Manifest.lock */,
 				7E6956C0289BA9B800093360 /* Sources */,
 				7E6956C1289BA9B800093360 /* Frameworks */,
 				7E6956C2289BA9B800093360 /* Resources */,
@@ -387,6 +396,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		276732E64CBB0BE26BDAB8B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QNDeviceSDKWatch WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -455,6 +486,7 @@
 /* Begin XCBuildConfiguration section */
 		7E6956D9289BA9B900093360 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805FCFD9BC02968AE6250A94 /* Pods-QNDeviceSDKWatch WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -467,9 +499,6 @@
 				DEVELOPMENT_TEAM = BV3EPFW3GV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
-					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
-					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
 					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
@@ -497,6 +526,7 @@
 		};
 		7E6956DA289BA9B900093360 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38E881907AFC0452A092810F /* Pods-QNDeviceSDKWatch WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -509,9 +539,6 @@
 				DEVELOPMENT_TEAM = BV3EPFW3GV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
-					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
-					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
 					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
