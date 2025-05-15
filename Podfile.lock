@@ -1,16 +1,16 @@
 PODS:
-  - QNSDK (2.21.6)
+  - QNiWatchSDK (2.0.2)
 
 DEPENDENCIES:
-  - QNSDK (= 2.21.6)
+  - QNiWatchSDK (= 2.0.2)
 
 SPEC REPOS:
-  trunk:
-    - QNSDK
+  https://github.com/CocoaPods/Specs.git:
+    - QNiWatchSDK
 
 SPEC CHECKSUMS:
-  QNSDK: 08a3de4e7c33cf2bcabc54a40144e6516c83f990
+  QNiWatchSDK: 8d68aaf2001df253b464b9d08de06b621d5de0ed
 
-PODFILE CHECKSUM: 86ca8e8fd528849eba7d775a6433d2d1a8c24350
+PODFILE CHECKSUM: d78c21f75338d58db3d86dc1eb5628db5c779919
 
 COCOAPODS: 1.16.2

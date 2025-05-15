@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'QNiWatchSDK'
-s.version          = '2.0.2'
+s.version          = '2.0.3'
 s.summary          = '轻牛旗下设备通讯类'
 
 s.description      = '支持智能体脂秤'
@@ -20,14 +20,13 @@ s.source           = { :git => 'https://github.com/YolandaQingniu/sdk-watchOS-de
 s.watchos.deployment_target = "4.0"
 
 s.vendored_frameworks = 'QNDeviceSDKWatch WatchKit Extension/QNDeviceSDK_watchos.framework'
+s.public_header_files = 'QNDeviceSDKWatch WatchKit Extension/QNDeviceSDK_watchos.framework/Headers/*.h'
 s.static_framework = true
 s.frameworks = 'CoreBluetooth'
 s.pod_target_xcconfig = {
-  # 声明 SDK 支持的架构（真机）
-  'VALID_ARCHS' => 'arm64 arm64_32 armv7k',
-  
-  # 排除模拟器架构（避免编译冲突）
-  'EXCLUDED_ARCHS[sdk=watchsimulator*]' => 'arm64 arm64_32 armv7k x86_64'
+  'VALID_ARCHS' => 'arm64 arm64_32 armv7k', # 声明 SDK 支持的架构（真机）
+  'EXCLUDED_ARCHS[sdk=watchsimulator*]' => 'arm64 arm64_32 armv7k x86_64',  # 排除模拟器架构（避免编译冲突）
+  'OTHER_LDFLAGS' => '-ObjC -all_load'  # 确保分类方法被加载
 }
 
 end
