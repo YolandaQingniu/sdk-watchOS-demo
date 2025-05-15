@@ -22,6 +22,12 @@ s.watchos.deployment_target = "4.0"
 s.vendored_frameworks = 'QNDeviceSDKWatch WatchKit Extension/QNDeviceSDK_watchos.framework'
 s.static_framework = true
 s.frameworks = 'CoreBluetooth'
-s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64_32 armv7k' }
+s.pod_target_xcconfig = {
+  # 声明 SDK 支持的架构（真机）
+  'VALID_ARCHS' => 'arm64 arm64_32 armv7k',
+  
+  # 排除模拟器架构（避免编译冲突）
+  'EXCLUDED_ARCHS[sdk=watchsimulator*]' => 'arm64 arm64_32 armv7k x86_64'
+}
 
 end
