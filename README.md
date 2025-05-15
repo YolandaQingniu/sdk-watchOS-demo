@@ -7,7 +7,7 @@ SDK的运行需要appid以及配置文件，商家在接入时可先使用轻牛
 ### cocoapods安装:
 - 先安装Cocoapods；
 - 通过 pod repo update 更新QNSDK的cocoapods版本；
-- 在Podfile对应的target中，添加`pod 'QNWatchSDK'`，并执行pod install；
+- 在Podfile对应的target中，添加`pod 'QNiWatchSDK'`，并执行pod install；
 - 在项目中使用CocoaPods生成的.xcworkspace运行工程；
 
 ## SDK文件说明
