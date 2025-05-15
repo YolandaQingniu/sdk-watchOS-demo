@@ -87,4 +87,15 @@ typedef NS_ENUM(NSInteger, QNScaleEvent) {
  @param sn sn
  */
 - (void)readSnComplete:(QNBleDevice *)device sn:(NSString *)sn;
+
+/// 收到秤端固件版本号
+/// @param device QNBleDevice
+/// @param bleVer 固件版本号
+- (void)onGetBleVer:(QNBleDevice *)device bleVer:(int)bleVer;
+
+/// 收到秤端电量百分比（部分设备支持）
+/// @param batteryLevel 0-100
+/// @param isLowLevel 设备是否处于低电状态
+/// @param device QNBleDevice
+- (void)onGetBatteryLevel:(NSUInteger)batteryLevel isLowLevel:(BOOL)isLowLevel device:(QNBleDevice *)device;
 @end

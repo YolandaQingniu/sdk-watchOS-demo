@@ -24,7 +24,7 @@
 		D232D6542004DE2D00AABD67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D232D6532004DE2D00AABD67 /* Assets.xcassets */; };
 		D232D6572004DE2D00AABD67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D232D6552004DE2D00AABD67 /* LaunchScreen.storyboard */; };
 		D232D65A2004DE2D00AABD67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D232D6592004DE2D00AABD67 /* main.m */; };
-		F616854E2DD3786C00318AB8 /* QNDeviceSDK_watchos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F616854D2DD3786C00318AB8 /* QNDeviceSDK_watchos.framework */; };
+		F6DE9AC52DD5DB93003FBEB9 /* QNDeviceSDK_watchos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DE9AC42DD5DB93003FBEB9 /* QNDeviceSDK_watchos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,7 +105,7 @@
 		D232D6562004DE2D00AABD67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D232D6582004DE2D00AABD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D232D6592004DE2D00AABD67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F616854D2DD3786C00318AB8 /* QNDeviceSDK_watchos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QNDeviceSDK_watchos.framework; sourceTree = "<group>"; };
+		F6DE9AC42DD5DB93003FBEB9 /* QNDeviceSDK_watchos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QNDeviceSDK_watchos.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F616854E2DD3786C00318AB8 /* QNDeviceSDK_watchos.framework in Frameworks */,
+				F6DE9AC52DD5DB93003FBEB9 /* QNDeviceSDK_watchos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,7 @@
 		7E6956C8289BA9B800093360 /* QNDeviceSDKWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				F616854D2DD3786C00318AB8 /* QNDeviceSDK_watchos.framework */,
+				F6DE9AC42DD5DB93003FBEB9 /* QNDeviceSDK_watchos.framework */,
 				7E33B4E428B4D19600A458B9 /* test123456789.qn */,
 				7E6956C9289BA9B800093360 /* InterfaceController.h */,
 				7E6956CA289BA9B800093360 /* InterfaceController.m */,
@@ -470,6 +470,7 @@
 					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
 					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
 					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
+					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "QNDeviceSDKWatch WatchKit Extension/Info.plist";
@@ -508,6 +509,7 @@
 				DEVELOPMENT_TEAM = BV3EPFW3GV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
 					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
 					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",
 					"$(PROJECT_DIR)/QNDeviceSDKWatch\\ WatchKit\\ Extension",

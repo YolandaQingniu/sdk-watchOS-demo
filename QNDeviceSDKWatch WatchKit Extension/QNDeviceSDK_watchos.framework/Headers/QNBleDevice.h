@@ -22,6 +22,13 @@ typedef NS_ENUM(NSUInteger, QNDisplayModuleType) {
     QNDisplayModuleTypeSimple,  //秤端显示数据模块类型：18888
 };
 
+typedef NS_ENUM(NSUInteger, QNScreenState) {
+    QNScreenStateOpen = 0,     //开机亮屏
+    QNScreenStateClose,        //待机息屏
+    QNScreenStateNewModeOpen,  //开机亮屏 (新模式)
+    QNScreenStateNewModeClose, //待机息屏 (新模式)
+};
+
 @interface QNBleDevice : NSObject
 /** mac地址 */
 @property (nonatomic, readonly, strong) NSString *mac;
@@ -33,8 +40,8 @@ typedef NS_ENUM(NSUInteger, QNDisplayModuleType) {
 @property (nonatomic, readonly, strong) NSString *bluetoothName;
 /** 信号强度 */
 @property (nonatomic, readonly, strong) NSNumber *RSSI;
-/** 是否已开机 */
-@property (nonatomic, readonly, getter=isScreenOn, assign) BOOL screenOn;
+/** 秤端屏幕状态*/
+@property (nonatomic, readonly, assign) QNScreenState screenState;
 /** 是否支持WIFI */
 @property (nonatomic, readonly, getter=isSupportWifi, assign) BOOL supportWifi;
 /** 设备类型 */
@@ -53,6 +60,11 @@ typedef NS_ENUM(NSUInteger, QNDisplayModuleType) {
 @property(nonatomic, readonly, assign) int hardwareVer;
 /** (WSP设备专属)软件版本 */
 @property(nonatomic, readonly, assign) int softwareVer;
+
+/** (用户秤设备专属)更新识别体重 */
+@property(nonatomic, readonly, assign) BOOL isSupportUpdateIdentifyWeight;
+/** (设备开始交互生效)设置是否支持控制测脂功能 */
+@property(nonatomic, readonly, assign) BOOL isSupportControlFatMeasurement;
 /** 显示模块类型*/
 @property(nonatomic, readonly, assign) QNDisplayModuleType displayModuleType;
 /** (用户秤设备专属)是否支持调整体年龄显示标识（部分秤支持，NO：不支持；Yes：支持）如果支持，可以设置用户秤在显示体年龄时会-2*/
@@ -60,5 +72,8 @@ typedef NS_ENUM(NSUInteger, QNDisplayModuleType) {
 
 /** (用户秤设备专属)是否支持抱婴模式标识（部分秤支持，NO：不支持；Yes：支持）如果支持，可以设置用户秤单次称量进入抱婴模式，秤面只会显示体重数据*/
 @property (nonatomic, readonly, assign) BOOL isSupportBabyCarryingModel;
+
+/// (用户秤设备专属)是否支持蜂鸣器功能（部分秤支持，NO：不支持；Yes：支持  如果支持，可以设置用户秤是否开启蜂鸣器开关）
+@property (nonatomic, readonly, assign) BOOL isSupportBuzzer;
 
 @end

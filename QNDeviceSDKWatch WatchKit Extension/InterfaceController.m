@@ -92,6 +92,14 @@
     QNScaleItemData* bodyFatRate = [scaleData getItem:QNScaleTypeBodyFatRate];
     QNScaleItemData* BMI = [scaleData getItem:QNScaleTypeBMI];
     NSLog(@"收到测量数据，体重 = %0.2f，BMI = %0.1f, 体脂 = %0.1f",scaleData.weight,BMI.value,bodyFatRate.value);
+    NSArray *arr = [scaleData getAllItem];
+    for (QNScaleItemData *item in arr) {
+        if (item.valueType == 0) {
+            NSLog(@"[%ld-%@] value[%.2f]", (long)item.type, item.name, item.value);
+        } else {
+            NSLog(@"[%ld-%@] value[%d]", (long)item.type, item.name, (int)item.value);
+        }
+    }
 }
 
 - (void)onGetStoredScale:(QNBleDevice *)device data:(NSArray<QNScaleStoreData *> *)storedDataList {
