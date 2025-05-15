@@ -39,3 +39,4 @@ FOUNDATION_EXPORT const unsigned char QNDeviceSDK_watchosVersionString[];
 #import "QNWspConfig.h"
 #import "QNWspScaleDataProtocol.h"
 #import "QNUserScaleDataProtocol.h"
+#import "QNConfig+QNAddition.h"

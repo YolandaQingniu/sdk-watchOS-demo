@@ -72,13 +72,17 @@
 		<data>
 		3g8GxUl2LobL8WAK9chwOu9L390=
 		</data>
+		<key>Headers/QNConfig+QNAddition.h</key>
+		<data>
+		J1/CdRN/0oB3dvmofikIzmUncmQ=
+		</data>
 		<key>Headers/QNConfig.h</key>
 		<data>
 		gHwMIazZ1I+zR8xHqcf8reEii0g=
 		</data>
 		<key>Headers/QNDeviceSDK_watchos.h</key>
 		<data>
-		1ttV2sxu8SDHg34iQSFPQfXwRHY=
+		liwvT0oVqJDLVaKXUkznTmOGegA=
 		</data>
 		<key>Headers/QNErrorCode.h</key>
 		<data>
@@ -338,6 +342,17 @@
 			LPij16KZvJSvUsI3gn3m0BQCHRiOGI67jHxFClH+mU0=
 			</data>
 		</dict>
+		<key>Headers/QNConfig+QNAddition.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			J1/CdRN/0oB3dvmofikIzmUncmQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			hKlsY/tt0X35zbAvSqtbaBEFQpjRc2jALlNf7k8KAic=
+			</data>
+		</dict>
 		<key>Headers/QNConfig.h</key>
 		<dict>
 			<key>hash</key>
@@ -353,11 +368,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ttV2sxu8SDHg34iQSFPQfXwRHY=
+			liwvT0oVqJDLVaKXUkznTmOGegA=
 			</data>
 			<key>hash2</key>
 			<data>
-			/rmOs1zbz3XtZyTpgsCG52+ujp3YfUdhUqF2d7Gb+eg=
+			eUJ2BnRH7Ht+6glY5dgm46VUROTex2pfXN8UAX9YtW8=
 			</data>
 		</dict>
 		<key>Headers/QNErrorCode.h</key>

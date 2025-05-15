@@ -8,7 +8,6 @@
 
 
 #import "QNConfig.h"
-#import "QNDataTool.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
