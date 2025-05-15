@@ -18,8 +18,8 @@ s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'service@qnniu.com' => 'service@qnniu.com' }
 s.source           = { :git => 'https://github.com/YolandaQingniu/sdk-watchOS-demo.git', :tag => s.version.to_s}
 s.watchos.deployment_target = "4.0"
-
 s.vendored_frameworks = 'QNDeviceSDKWatch WatchKit Extension/QNDeviceSDK_watchos.framework'
+s.source_files = 'QNDeviceSDKWatch WatchKit Extension/QNDeviceSDK_watchos.framework/Headers/*.h'
 s.public_header_files = 'QNDeviceSDKWatch WatchKit Extension/QNDeviceSDK_watchos.framework/Headers/*.h'
 s.static_framework = true
 s.frameworks = 'CoreBluetooth'
