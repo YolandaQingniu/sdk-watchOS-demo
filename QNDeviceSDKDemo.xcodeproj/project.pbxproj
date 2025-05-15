@@ -99,7 +99,7 @@
 		8A63DBA6AD0F34D1227065FE /* Pods_QNDeviceSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNDeviceSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		941AA8E9A2EE529419E6DEE8 /* Pods_QNDeviceSDKWatch_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNDeviceSDKWatch_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3248B0F7EDD00A7C23459B /* Pods-QNDeviceSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNDeviceSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-QNDeviceSDKDemo/Pods-QNDeviceSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
-		D232D6472004DE2D00AABD67 /* SDK 2.0.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDK 2.0.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D232D6472004DE2D00AABD67 /* SDK 2.0.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDK 2.0.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D232D64A2004DE2D00AABD67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D232D64B2004DE2D00AABD67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D232D64D2004DE2D00AABD67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -193,7 +193,7 @@
 		D232D6482004DE2D00AABD67 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D232D6472004DE2D00AABD67 /* SDK 2.0.0.app */,
+				D232D6472004DE2D00AABD67 /* SDK 2.0.1.app */,
 				7E6956B9289BA9B600093360 /* QNDeviceSDKWatch.app */,
 				7E6956C4289BA9B800093360 /* QNDeviceSDKWatch WatchKit Extension.appex */,
 			);
@@ -289,7 +289,7 @@
 			);
 			name = QNDeviceSDKDemo;
 			productName = QNDeviceSDKDemo;
-			productReference = D232D6472004DE2D00AABD67 /* SDK 2.0.0.app */;
+			productReference = D232D6472004DE2D00AABD67 /* SDK 2.0.1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -765,7 +765,7 @@
 				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yolanda.sdk;
-				PRODUCT_NAME = "SDK 2.0.0";
+				PRODUCT_NAME = "SDK 2.0.1";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "QNDeviceSDKDemo/QNDeviceSDKDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -795,7 +795,7 @@
 				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yolanda.sdk;
-				PRODUCT_NAME = "SDK 2.0.0";
+				PRODUCT_NAME = "SDK 2.0.1";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "QNDeviceSDKDemo/QNDeviceSDKDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
