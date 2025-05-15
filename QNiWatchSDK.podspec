@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-s.name             = 'QNWatchSDK'
+s.name             = 'QNiWatchSDK'
 s.version          = '2.0.0'
 s.summary          = '轻牛旗下设备通讯类'
 
