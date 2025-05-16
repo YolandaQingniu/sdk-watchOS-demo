@@ -1,16 +1,3 @@
-PODS:
-  - QNiWatchSDK (2.0.2)
-
-DEPENDENCIES:
-  - QNiWatchSDK (= 2.0.2)
-
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - QNiWatchSDK
-
-SPEC CHECKSUMS:
-  QNiWatchSDK: 8d68aaf2001df253b464b9d08de06b621d5de0ed
-
-PODFILE CHECKSUM: d78c21f75338d58db3d86dc1eb5628db5c779919
+PODFILE CHECKSUM: ae4c7422d13efa8f33f5ef0a2b171fc91d06dc0b
 
 COCOAPODS: 1.16.2
